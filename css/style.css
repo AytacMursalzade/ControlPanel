@@ -1,0 +1,42 @@
+.private{
+    width:100%;
+    height: 600px;
+    background-color: #F7F7F7;
+    position: relative;
+}
+.private img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 250px;
+    top: 60px;
+    
+}
+
+.first{
+    width:100%;
+    height: 600px;
+    background-color: rgb(100, 100, 209);
+    padding: 22px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+#awth{
+    border-top-left-radius: 30px; 
+    text-align: center;
+    font-size: 15px;
+    border-bottom-right-radius: 30px;
+    position: absolute;
+    top: 118px;
+    right: 26px;
+    border: 2px solid transparent;
+    color: #CDBA96;
+} 
+    
+.apanel{
+    text-shadow: 2px 5px 1px #7321CE;
+    color: #551A8B;
+  
+}

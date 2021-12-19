@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+    <link rel="short icon" href="img/Zhoolego-Material-Control-Panel.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <div class="row">
+                    <div class="private">
+                        <img src="img/white.png" alt="prog">
+                        <div id="smile"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <div class="row">
+                    <div class="first">
+                        <h1 class="apanel">Control Panel</h1>
+
+
+
+                        <label for="lang"></label>
+                        <input type="text" id="lang" placeholder="include width" class="form-control" style="border: 3px solid #A0522D; box-shadow: 7px 6px 24px 6px #4E0707; color: #BC544B; ">  
+                        <select name="" id="awth">
+                            <option value="px">px</option>
+                            <option value="em">em</option>
+                            <option value="percent">percent</option>
+                            <option value="vh">vh</option>
+                            <option value="ch">ch</option>
+                            <option value="rem">rem</option>
+                        </select>
+                        <br>
+                        <br>
+
+                        <label for="hgt"></label>
+                        <input type="text" id="hgt" placeholder="include height" class="form-control" style="border: 3px solid #A0522D; box-shadow: 7px 6px 24px 6px #4E0707; color: #BC544B;">  
+                        <br>
+                        <br>
+                        <label for="abg"></label>
+                        <select name="" id="abg" class="form-control" style="border: 3px solid #A0522D; box-shadow: 7px 6px 24px 6px #4E0707; color: #4E0707; ">
+                            <option value="blue">Blue</option>
+                            <option value="black">Black</option>
+                            <option value="red">Red</option>
+                            <option value="green">Green</option>
+                            <option value="purple">Purple</option>
+                            <option value="brown">Brown</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="white">White</option>
+                            <option value="orange">Orange</option>
+                            <option value="yellow">Yellow</option>
+                            <option value="transparent">Transparent</option>
+                        </select> 
+                        <br>
+                        <br>
+
+                        <label for="brrd"></label>
+                        <input type="text" id="brrd" placeholder="include border-radius" class="form-control" style="border: 3px solid #A0522D; box-shadow: 7px 6px 24px 6px #4E0707; color: #BC544B;">  
+                        <br>
+                        <br>
+
+                        <button type="button" onclick="ControlPanel()" class="btn btn-primary btn-block">Smile</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/index.js"></script>
